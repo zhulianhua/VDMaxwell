@@ -1,0 +1,11 @@
+EXE_INC = \
+    -IlnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/lagrangian/basic/lnInclude \
+    -I$(LIB_SRC)/lagrangian/DSMC/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+LIB_LIBS = \
+    -llagrangian \
+    -lfiniteVolume \
+    -lmeshTools

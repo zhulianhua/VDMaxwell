@@ -1,0 +1,3 @@
+makeVDMaxwell.C
+
+LIB = $(FOAM_USER_LIBBIN)/libVDMaxwell
